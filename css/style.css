@@ -1,0 +1,122 @@
+html {
+    overflow-y: scroll;
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: transparent;
+}
+h3 {
+    margin-bottom: 10px;
+}
+body {
+    margin: auto;
+    color: #3c484e;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.6em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0;
+    text-rendering: optimizeLegibility;
+    background: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga" on;
+}
+
+h2 {
+    margin: 1.5em 0 .5em;
+    font-size: 2rem;
+}
+.highlight {
+    color: #E31B6D;
+}
+
+.cover {
+    display: flex;
+    align-items: center;
+}
+.links {
+    display: flex;
+    font-size: 2rem;
+}
+
+.links a {
+    margin-right: 20px;
+    cursor: pointer;
+}
+.links a:hover {
+    color: #E31B6D;
+}
+
+b {
+    color: #E31B6D;
+}
+
+b a {
+    color: #E31B6D;
+}
+
+.cover-link-grp {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: flex-end;
+}
+.links a {
+    color: #3c484e;
+}
+
+.cover-link-grp p {
+    margin: 0px
+}
+
+.contact {
+    margin-top: 10px;;
+    margin-bottom: 10px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #E31B6D;
+}
+
+.content {
+    margin: 0 10px;
+}
+@media only screen and (min-width: 768px) {
+    .site-main {
+        width: 700px;
+        margin: auto;
+        margin-top: 50px;
+    }
+  }
+
+@media only screen and (max-width: 425px) {
+    .site-main {
+        width: 400px;
+    }
+    .cover {
+        padding-top: 10px;
+        margin: 0 10px;
+    }
+  }
+
+
+@media only screen and (max-width: 375px) {
+    .site-main {
+        width: 350px;
+    }
+    .cover {
+        padding-top: 10px;
+        margin: 0 10px;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    .site-main {
+        width: 25   0px;
+    }
+    .cover {
+        padding-top: 10px;
+        margin: 0 10px;
+    }
+  }
