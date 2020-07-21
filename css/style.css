@@ -98,6 +98,7 @@ b a {
     .cover {
         padding-top: 10px;
         margin: 0 10px;
+        margin-top: 20px;
     }
   }
 
@@ -105,6 +106,7 @@ b a {
 @media only screen and (max-width: 375px) {
     .site-main {
         width: 350px;
+        margin-top: 20px;
     }
     .cover {
         padding-top: 10px;
@@ -114,7 +116,8 @@ b a {
 
   @media only screen and (max-width: 320px) {
     .site-main {
-        width: 25   0px;
+        width: 300px;
+        margin-top: 20px;
     }
     .cover {
         padding-top: 10px;
