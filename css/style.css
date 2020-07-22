@@ -10,7 +10,7 @@ body {
     margin: auto;
     color: #3c484e;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
+    font-size: 14px;
     line-height: 1.6em;
     font-weight: 400;
     font-style: normal;
@@ -60,7 +60,7 @@ b a {
     flex-direction: column;
     align-items: end;
     justify-content: flex-end;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .links a {
     color: #3c484e;
@@ -94,6 +94,7 @@ b a {
 @media only screen and (max-width: 425px) {
     .site-main {
         width: 400px;
+        margin: auto;
     }
     .cover {
         padding-top: 10px;
